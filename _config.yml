@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: https://github.com/hinak0/hinak0.github.io
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,7 +17,7 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  projects: https://github.com/hinak0/hinak0.github.io
 
 
 # Links to your social media accounts.
@@ -25,11 +25,11 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: https://github.com/hinak0
+  # twitter: /
+  # facebook: /
+  # linkedin: /
+  mail: mailto:hinak0@qq.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -41,7 +41,7 @@ tags_overview: false
 #   - post_count: whether to show only the x most recent posts.
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
-  show_all_posts: false
+  show_all_posts: true
   post_count: 5
   sort_updated: false
 
@@ -62,7 +62,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2022
   end_year:
 
 # Customize the 404 page
@@ -90,8 +90,8 @@ logo:
   enabled: true
   width: 50
   height: 50
-  url: /images/logo.png
-  gravatar: false
+  url: https://www.gravatar.com/avatar/15870bf19a761bf047b31e783fe19b82
+  gravatar: true
   grayout: true
 
 # Customize the favicons.
@@ -105,14 +105,14 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
-    gravatar: false
+    url: https://www.gravatar.com/avatar/15870bf19a761bf047b31e783fe19b82
+    gravatar: true
   android:
-    url: /images/favicon-192x192.png
-    gravatar: false
+    url: https://www.gravatar.com/avatar/15870bf19a761bf047b31e783fe19b82
+    gravatar: true
   apple:
-    url: /images/apple-touch-icon.png
-    gravatar: false
+    url: https://www.gravatar.com/avatar/15870bf19a761bf047b31e783fe19b82
+    gravatar: true
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
@@ -132,7 +132,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss: true
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
@@ -149,7 +149,7 @@ open_graph:
 # Enable MathJax support for Latex
 mathjax:
   enabled: false
-  
+
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
   enabled: false
@@ -170,8 +170,8 @@ google_analytics:
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
-  enabled: false
-  id: 2e6da3c375c8a87f5b664cea6d4cb29c
+  enabled: true
+  id: 942470ddf015bf23943bee15872e0800
 
 # Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
 cloudflare_analytics:
@@ -188,8 +188,8 @@ umami_analytics:
 # logo and/or favicons of you website.
 # To generate hash: `$ echo -n "name@email.com" | md5`.
 gravatar:
-  email: name@email.com
-  hash: d41d8cd98f00b204e9800998ecf8427e
+  email: hinak0@qq.com
+  hash: 15870bf19a761bf047b31e783fe19b82
 
 # loads libraries and styles from CDN instead or relying on local files
 cdn:
